@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(30, 33, 49);
+}
+
+h1 {
+    color: rgb(179, 179, 208);
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 50px;
+}
+
+h2 {
+    color: rgb(136, 136, 167);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 50px;
+}
+p {
+    color: rgb(136, 136, 167);
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.main {
+    overflow: hidden;
+    background-color: rgb(30, 33, 49);
+    position: relative;
+    top: auto;
+    width: 100%;
+}
+
+.symbol {
+    float: left;
+    font-size: 30px;
+    border: rgb(136, 136, 167);
+    outline: rgb(136, 136, 167);
+    color: rgb(136, 136, 167);
+    background-color: rgb(30, 33, 49);
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar {
+    overflow: scroll;
+    background-color: rgb(30, 33, 49);
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    color: rgb(30, 33, 49);
+    font-size: 15px;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: scroll;
+}
+
+.dropdown .dropbutton {
+    font-size: 30px;
+    border: rgb(136, 136, 167);
+    outline: rgb(136, 136, 167);
+    color: rgb(136, 136, 167);
+    background-color: rgb(30, 33, 49);
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbutton {
+    background-color: rgb(30, 33, 49);
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: rgb(30, 33, 49);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown_content a {
+    float: none;
+    color: rgb(136, 136, 167);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content a:hover {
+    background-color: rgb(136, 136, 167);
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+ul {
+    color: rgb(136, 136, 167);
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 80px;
+}
